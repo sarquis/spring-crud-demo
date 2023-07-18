@@ -23,7 +23,7 @@ public class SpringCrudDemoApplication {
 
 	    // createStudent(studentDAO);
 
-	    // createMultipleStudents(studentDAO);
+	    createMultipleStudents(studentDAO);
 
 	    // readStudent(studentDAO);
 
@@ -35,10 +35,11 @@ public class SpringCrudDemoApplication {
 
 	    // deleteStudent(studentDAO);
 
-	    deleteAllStudents(studentDAO);
+	    // deleteAllStudents(studentDAO);
 	};
     }
 
+    @SuppressWarnings("unused")
     private void deleteAllStudents(StudentDAO studentDAO) {
 
 	System.out.println("Deleting all students");
